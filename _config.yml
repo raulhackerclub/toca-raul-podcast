@@ -7,8 +7,6 @@ markdown: kramdown
 permalink: /:year/:month/:title
 ins_logo: "/images/pixel.png"
 
-tracking_id: #
-
 footer: yes
 footer_url: "./sobre/"
 footer_text: "Feito com <3 pelo e no Raul Hacker Club"
@@ -25,8 +23,8 @@ nav:
  - name: "Home"
    link: "/"
  - name: "Categorias"
-   link: "categorias"
+   link: "/categorias"
  - name: "Feed"
-   link: "feeds"
+   link: "/feeds"
  - name: "Sobre"
-   link: "sobre"
+   link: "/sobre"

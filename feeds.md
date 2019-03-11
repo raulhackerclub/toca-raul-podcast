@@ -11,6 +11,6 @@ Pra seguir e ficar ligado nos próximos episódios basta assinar os feeds aqui e
 
 Nós temos esses aqui disponíveis:
 
-* [Todos episódios](todos.xml)
-* [Geral](geral.xml)
-* [Segurança](seguranca.xml)
+* [Todos episódios](/feeds/todos.xml)
+* [Geral](/feedsgeral.xml)
+* [Segurança](/feeds/seguranca.xml)
