@@ -6,6 +6,7 @@ baseurl: ""
 markdown: kramdown
 permalink: /:year/:month/:title
 ins_logo: "/images/pixel.png"
+favicon: "/images/pixel.png"
 
 footer: yes
 footer_url: "./sobre/"
