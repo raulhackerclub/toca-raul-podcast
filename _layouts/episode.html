@@ -100,6 +100,13 @@
                 <iframe src="https://archive.org/embed/{{ page.integra }}" width="100%" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
                 {% endif %}
 
+                {% if page.versoes %}
+                <h2>Outras versões:</h2>
+                {% for versao in page.versoes %}
+                <iframe src="https://archive.org/embed/{{ versao }}" width="100%" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+                {% endfor %}
+                {% endif %}
+
                 <hr>
 
                 <p>Gostou? Aproveita e assina os <a href="/feeds">feed</a> pra saber quando tiver episódio novo!</p>
