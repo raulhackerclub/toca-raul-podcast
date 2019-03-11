@@ -1,5 +1,6 @@
-title: Toca Raul! Podcast
+title: "Toca Raul! Podcast"
 url: "http://toca.raulhc.cc"
+description: "Toca Raul! Podcast, o podcast do Raul Hacker Club"
 baseurl: ""
 
 markdown: kramdown

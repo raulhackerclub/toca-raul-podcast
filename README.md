@@ -98,7 +98,7 @@ Não pode doar 30? Tem problema não, nós queremos que mais pessoas doem, para 
 
 Esse site é feito com [Jekyll][jekyll], hospedado no [Github Pages][ghpages] e foi utilizado o tema [Research][research].
 
-[emailreuniao]: http://raulhc.cc
+[emailreuniao]: https://lists.riseup.net/www/arc/raulhc/2019-03/msg00007.html
 [sobre]: http://raulhc.cc/Doc/Sobre
 [siteraul]: http://raulhc.cc
 [quem]: http://raulhc.cc/Doc/QuemSomos
