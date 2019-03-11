@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<h1>Chegue mais!</h1>
+
+Fique a vontade! Olha <a href="/sobre">aqui</a> pra saber mais sobre, assine os <a href="/feeds">feeds</a> pra ficar ligado em novidade, enfim, navega por aí, curte, ajuda, faz desse podcast o seu podcast \o/
+
+# Episódios
+
+<ul>
+    {% for ep in paginator.posts %}
+    <li>
+        <a href="{{ ep.url }}">{{ ep.title }} [{{ ep.date | date: "%d/%m/%Y" }}]</a>
+    </li>
+    {% endfor %}
+</ul>
+
+{% if paginator.total_pages != 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">
+        <<
+      </a>
+    {% else %}
+      <span class="previous"><<</span>
+    {% endif %}
+    <span class="page_number ">
+      Página: {{ paginator.page }} de {{ paginator.total_pages }}
+    </span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">>></a>
+    {% else %}
+      <span class="next ">>></span>
+    {% endif %}
+  </div>
+{% endif %}

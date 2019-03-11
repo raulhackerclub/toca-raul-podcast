@@ -1,24 +1,31 @@
-title: Researcher
-url: "https://ankitsultana.com"
-baseurl: "/researcher"
+title: Toca Raul! Podcast
+url: "http://toca.raulhc.cc"
+baseurl: ""
 
 markdown: kramdown
-#ins_logo: "./bits-logo.png"
+permalink: /:year/:month/:title
+ins_logo: "/images/pixel.png"
 
 tracking_id: #
 
 footer: yes
-footer_url: "https://github.com/ankitsultana"
-footer_text: "Page design by Ankit Sultana"
+footer_url: "./sobre/"
+footer_text: "Feito com <3 pelo e no Raul Hacker Club"
+
+paginate: 20
+paginate_path: "/:num"
+plugins: [jekyll-paginate]
 
 sass:
     style: compressed
     sass_dir: _sass
 
 nav:
- - name: "About"
-   link: "/researcher/"
- - name: "Resume"
-   link: "resume.pdf"
- - name: "Contact"
-   link: "contact"
+ - name: "Home"
+   link: "/"
+ - name: "Categorias"
+   link: "categorias"
+ - name: "Feed"
+   link: "feeds"
+ - name: "Sobre"
+   link: "sobre"

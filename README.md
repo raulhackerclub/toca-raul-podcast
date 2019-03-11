@@ -1,60 +1,116 @@
-# Researcher
+---
+layout: default
+permalink: /sobre/
+---
 
-### [Demo Website](http://ankitsultana.com/researcher)
+# Toca Raul! Podcast
 
-A clean, single column, monospace resume template built for jekyll
+## O que é
 
-### Installation
+O **Toca Raul! Podcast** vem com a ideia de ser um podcast colaborativo, feito do/pelo Raul Hacker Club, seus apoiadores, membros e pessoas de interesse.
 
-Simply fork the repository and edit away.
+A [ideia veio numa reunião][emailreuniao] de um projeto a ser tocado de forma descentralizada. A galera presente achou legal, conversando mais lapidamos a ideia e está aqui para você.
 
-#### Installation via remote themes
+Se quiser saber mais [sobre][sobre] o que é o [Raul Hacker Club][siteraul], [quem faz][quem] o espaço, [o que é um hackerspace][oque] e [como participar][como], recomendamos seguir esses links, entrar em contato e colar junto.
 
-* Just setting `remote_theme: ankitsultana/researcher@gem` in `_config.yml` should work. Although in that case, I am not sure how
-you would build your site locally for testing. If you know how, open up an issue and let me know.
-* For more info, [refer this](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/).
+Se quer colaborar com o podcast, dá uma olhada mais abaixo. ;)
 
-### Customization
+## Formato
 
-* You can edit the `.md` (markdown) files as you see fit. You can also add some other markdown file, say `foo.md` in the root directory of the repository. It will then be accessible like so `{{ url of your website }}/foo`.
+O formato que pensamos na reunião de fazer esse podcast foi seguindo aquela velha filosofia [KISS][kiss].
 
-* You can of course remove `contact.md` if you don't want it
+Ó a ideia, saca só: quanto mais pessoas envolvidas tivermos, menos trabalho cada uma vai ter. Isso é massa e funciona!
 
-* To set the heading, edit the `title` variable in `_config.yml`
+A ideia é que sejam dois tipos de episódios, um mais curtinho e outro mais longuinho.
 
-* To edit the `links` mentioned on the navigation bar, you can edit `_config.yml`. For example:
+### Curtinhos
 
-```
-nav:
- - name: "About"
-   link: "/researcher/"
- - name: "Resume"
-   link: "resume.pdf"
- - name: "Contact"
-   link: "contact"
-```
+Esse aqui, eu, você, sua tia, qualquer um que manje de alguma coisa e queira falar, pode enviar um áudiozinho pro Raul Hacker Club (Telegram? Lista? Enfim...) falando sobre tal assunto e ele vem parar no ar.
 
-* You can change the accent (color of hyperlinks) by editing the `accent` variable in `_sass/vars.scss`
+Outra possibilidade é alguém ter visto um assunto legal para falar e sabe uma pessoa que tem um conhecimento sobre aquilo. Vai lá, manda uma mensagem pra ela pedindo esse depoimento, ela responde em áudio e pronto!
 
-* You can setup google analytics, by setting `tracking_id` in `_config.yml`
+Eventualmente podem ser adicionados uma vinhetazinha do Raul Hacker Club e fechou lá!
 
-* To add a profile picture, make sure to give the image tag the class `profile-picture`. In other words,do it like so:
+Até então não temos regras sobre tempo, assunto, modo de falar ou coisa assim, então vamos ver se contando com o bom senso coletivo isso funfa.
 
-```html
-<img class="profile-picture" src="sherlock.jpg">
-```
+Mas tem aquela coisa, tenta fazer um audiozinho não muito longo, sem chiados, sem muitas pausas... Essas coisas que você não curte receber e tal.
 
-* You can remove/customize the footer as you like by setting the
-appropriate variables in `_config.yml`
+Legal a ideia? :D
 
-* (New in v1.2.0) You can add institute logo at the top, by setting `ins_logo` in `_config.yml`. If you want
-to adjust the logo's size, try setting `max-height` in `#ins-logo` in file `./_sass/_style.scss` to the desired
-value
+### Longuinhos
 
-![Institute Logo Image Sample](https://github.com/ankitsultana/assets/raw/master/ins-logo-sample.png)
+Já esses aqui é o seguinte:
 
-**Note:** Customizing the accent color might cause merge conflicts if you later try to merge from `bk2dcradle/researcher` to fetch updates/patches etc. (applicable only if you have forked).
+- "Ah, VaMoS FaZeR Um eVeNtO AqUi nO RaUl hAcKeR ClUb"
 
-### License
+Pow, massa! Então que tal vocês que tão participando desse evento, conversando sobre alguma coisa, não grava isso por um tempo pra gente disponibilizar online?!! Bó?
 
-[GNU GPL v3](https://github.com/bk2dcradle/researcher/blob/gh-pages/LICENSE)
+E aí é isso! :P
+
+Pode ser que pensemos em uma pautazinha e façamos um encontro só pra gravar, pode ser algo assim mesmo, que role organicamente... enfim, ao gosto do podcaster! ;)
+
+Então se alguém topar, [pode fazer uma ediçãozinha][editar] na gravação pra ficar mais legal e dar uma experiência massa pros ouvintes e é isso aí, é isso mermo.
+
+Depois da edição, é fazer upload no meio de armazenamento do Raul Hacker Club e postar aqui.
+
+Temos a ideia de postar tanto o áudio editado quanto o integral.
+
+*Pq, homi?*
+
+A ideia é que isso aqui seja livre, então alguém que queira brincar pode pegar o áudio, editar (talvez colocar umas músicas do Raulzito, fazer e colocar uma intro massa e tal), e então mandar pra gente pra publicar. Bó?!
+
+## Estrutura
+
+Bem, explicando o site:
+
+* Na página [home][home] tem os últimos podcast que você pode ouvir
+* [Nessa página aqui][podcast] tem toda essa info sobre o podcast, como surgiu, como participar, perêrê-parará
+* Já em [RSS][rss] tem os feeds RSS de todos os episódios ou separados por categorias que você pode seguir e ficar ligado quando tiver episódio novo no ar
+* E em [Categorias][categorias] tu vai poder ver as categorias que existem de podcasts e os episódios separadinhos de acordo essas categorias
+
+Massa, né?! Se não for, diz aí como a gente pode melhorar, pow! :D
+
+## Como contribuir
+
+VEI! O que mais tem aqui é foram de contribuir!!!
+
+Vou colocar uma lista aqui mas deve ter mais formas, ativa a imaginação aí!!
+
+1. Apoiando o Raul Hacker Club (mais info abaixo)
+2. Criando uma vinheta massa pra colocar nos episódios (talvez até com chamadas tipo "curtinhos no raulzinho", só que algo legal DahDuAHsUHdsAu)
+3. Colando pra editar os episódios, fazer os cortes, dar dicas de como melhorar
+4. Mantendo o site, postando o que os editores fizerem, procurando onde melhorar
+5. Ouvindo os episódios e dando feedbacks de melhoria (e **ajudando** a executar)
+6. Compartilhando com geral pra ouvir e fazer desse podcast um sucessão
+7. (**essa aqui é boa, vuh?!**) Fazendo a transcrição dos episódios pra ficar mais acessível!!!
+
+Oh paí, vei, jeito demais de tu poder ajudar a gente! \o/
+
+## Que tal apoiar o Raul?
+
+E aí, curtiu a ideia? Achou massa? Topa dar uma ajudinha pra manter o espaço do Raul Hacker Club funcionando? Então vem que tem! :D
+
+Cola aqui no [apoia.se/raulhc][apoiase] e dá aquela força.
+
+Não pode doar 30? Tem problema não, nós queremos que mais pessoas doem, para que sobrevivamos com mais gente e menos dinheiro de cada. Então apoia com 10zão e compartilha com uns amigos e incentiva a apoiar também, afinal, 10zão vai ser uma brejinha só ^^
+
+## Site
+
+Esse site é feito com [Jekyll][jekyll], hospedado no [Github Pages][ghpages] e foi utilizado o tema [Research][research].
+
+[emailreuniao]: http://raulhc.cc
+[sobre]: http://raulhc.cc/Doc/Sobre
+[siteraul]: http://raulhc.cc
+[quem]: http://raulhc.cc/Doc/QuemSomos
+[oque]: http://raulhc.cc/#O_que_233_um_HackerSpace_63
+[como]: http://raulhc.cc/Doc/ComoParticipar
+[apoiase]: https://apoia.se/raulhc
+[podcast]: /sobre/
+[home]: /
+[rss]: /rss
+[categorias]: /categorias
+[kiss]: https://pt.wikipedia.org/wiki/Keep_It_Simple
+[editar]: https://mundopodcast.com.br/podcasteando/gravacao-edicao-podcast/
+[jekyll]: https://jekyllrb.com/
+[ghpages]: https://pages.github.com
+[research]: https://github.com/ankitsultana/researcher
